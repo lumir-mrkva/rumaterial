@@ -1,0 +1,1069 @@
+/* roboto-300 - latin_latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/roboto-v18-latin_latin-ext-300.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Light'), local('Roboto-Light'),
+    url('fonts/roboto-v18-latin_latin-ext-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/roboto-v18-latin_latin-ext-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/roboto-v18-latin_latin-ext-300.woff') format('woff'), /* Modern Browsers */
+    url('fonts/roboto-v18-latin_latin-ext-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/roboto-v18-latin_latin-ext-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin_latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/roboto-v18-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('fonts/roboto-v18-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/roboto-v18-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/roboto-v18-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/roboto-v18-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/roboto-v18-latin_latin-ext-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin_latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/roboto-v18-latin_latin-ext-500.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+    url('fonts/roboto-v18-latin_latin-ext-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/roboto-v18-latin_latin-ext-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/roboto-v18-latin_latin-ext-500.woff') format('woff'), /* Modern Browsers */
+    url('fonts/roboto-v18-latin_latin-ext-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/roboto-v18-latin_latin-ext-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+html > body {
+    font: 14px "Roboto", sans-serif;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+    color: rgb(117, 117, 117);
+}
+
+html > button {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+a {
+    color: #65519f;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.hide {
+    display: none !important;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.rumaterial-new-tab {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 0 50px 50px 0;
+    border-radius: 0 50px 50px 0;
+    color: rgb(117, 117, 117);
+}
+
+.rumaterial-new-tab:hover {
+    color: #65519f;
+}
+
+.rumaterial-new-tab-ico {
+    font-size: 16px !important;
+    margin-left: 5px;
+}
+
+.rumaterial-secondary-title {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.rumaterial-root {
+    flex-grow: 1;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.rumaterial-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 56px;
+}
+
+.rumaterial-context {
+    flex-grow: 1;
+    background-color: #fafafa;
+}
+
+.rumaterial-card {
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.rumaterial-page {
+    display: flex;
+    justify-content: center;
+    background: #E1E2E1;
+    min-height: 100vh;
+}
+
+.rumaterial-fab {
+    position: fixed !important;
+    z-index: 2;
+    bottom: 20px;
+    left: calc(50% - 26px);
+}
+
+.rumaterial-popper {
+    z-index: 1;
+}
+
+.rumaterial-message {
+    display: flex;
+    align-items: center;
+}
+
+.rumaterial-drawer > ::-webkit-scrollbar {
+    width: 0px; /* remove scrollbar space */
+    background: transparent; /* optional: just make scrollbar invisible */
+}
+
+.rumaterial-message-icon {
+    opacity: 0.9;
+    margin-right: 8px;
+}
+
+.rumaterial-button-icon {
+    margin-right: 8px;
+}
+
+.rumaterial-paper {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.rumaterial-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rumaterial-row-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rumaterial-margin-normal {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.rumaterial-menu-info {
+    opacity: 0.7;
+}
+
+/** Appbar **/
+
+.rumaterial-appbar {
+    position: absolute;
+    margin-left: 200px;
+    background: linear-gradient(60deg, #65519f, #362870);
+    box-shadow: none;
+    z-index: 1201 !important;
+    transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, margin 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.rumaterial-appbar-user-menu-logged-info {
+    opacity: 0.7 !important;
+}
+
+.rumaterial-appbar-user-menu-logged-user {
+    font-weight: 600;
+}
+
+.rumaterial-appbar-search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-right: 16px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.rumaterial-appbar-subtitle {
+    display: none !important;
+    margin-left: 10px !important;
+}
+
+.rumaterial-appbar-search:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.rumaterial-appbar-search-icon {
+    width: 56px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rumaterial-appbar-search-root {
+    color: inherit !important;
+    width: 100%;
+}
+
+.rumaterial-appbar-search-input {
+    padding: 8px 8px 8px 80px !important;
+    transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.rumaterial-appbar-search-mobile {
+    position: absolute;
+    display: flex;
+}
+
+.rumaterial-appbar-search-mobile-root {
+    flex-grow: 1;
+}
+
+.rumaterial-appbar-search-mobile-input {
+    color: #5f6368 !important;
+    font-size: 24px !important;
+}
+
+.rumaterial-appbar-search-mobile-close {
+    color: #5f6368;
+}
+
+.rumaterial-appbar-search-mobile-content {
+    background-color: #fff !important;
+}
+
+.rumaterial-appbar-search-mobile-content-message {
+    flex: 1
+}
+
+.rumaterial-appbar-search-mobile-message {
+    display: flex;
+    align-items: center;
+}
+
+.rumaterial-appbar-avatar {
+    border: 1px solid #fff;
+}
+
+.rumaterial-section-desktop,
+.rumaterial-action-menu-desktop,
+.rumaterial-appbar-section-desktop {
+    display: none;
+    align-items: center;
+}
+
+.rumaterial-section-mobile,
+.rumaterial-action-menu-mobile,
+.rumaterial-appbar-section-mobile {
+    display: flex;
+    align-items: center;
+}
+
+/** Drawer **/
+
+.rumaterial-drawer > div {
+    white-space: nowrap;
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.rumaterial-drawer-content {
+    width: 200px;
+}
+
+.rumaterial-list-item-icon,
+.rumaterial-drawer-item-icon,
+.rumaterial-drawer-item-text > h6 {
+    color: rgb(117, 117, 117) !important;
+}
+
+.rumaterial-drawer-item-selected {
+    border-left: 5px solid #65519f !important;
+    padding-left: 11px !important;
+}
+
+.rumaterial-drawer-item-icon-selected,
+.rumaterial-drawer-item-text-selected > h6 {
+    color: #65519f !important;
+    font-weight: 600 !important;
+}
+
+.rumaterial-title {
+    display: flex;
+    flex-grow: 1;
+    min-height: 56px;
+    align-items: flex-start;
+    padding-left: 24px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rumaterial-title > a:link {
+    text-decoration: none;
+}
+
+.rumaterial-title > a:visited {
+    text-decoration: none;
+}
+
+.rumaterial-title > a:hover {
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: underline;
+}
+
+.rumaterial-title-name {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.3125rem;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.16667em;
+}
+
+.rumaterial-title-version {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.375em;
+}
+
+/** Login screen **/
+
+.rumaterial-login-layout {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rumaterial-login-paper {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px 24px;
+}
+
+.rumaterial-login-avatar {
+    margin: 8px;
+    background-color: #65519f;
+}
+
+.rumaterial-login-text {
+    color: #65519f !important;
+}
+
+.rumaterial-login-form {
+    margin-top: 8px;
+}
+
+.rumaterial-login-form > div {
+    margin-bottom: 24px;
+}
+
+/** Progress button **/
+
+.rumaterial-progress-button-wrapper {
+    position: relative;
+}
+
+.rumaterial-progress-button {
+    color: #65519f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+/** Expansion panel **/
+
+.rumaterial-expansion-panel {
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: none !important;
+}
+
+.rumaterial-expansion-panel:not(:last-child) {
+    border-bottom: 0;
+}
+
+.rumaterial-expansion-panel:before {
+    display: none;
+}
+
+.rumaterial-expansion-panel-expanded {
+    margin: 0 !important;
+}
+
+.rumaterial-expansion-panel-summary {
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin-bottom: -1px !important;
+}
+
+/** List **/
+
+.rumaterial-table {
+    background-color: #fff;
+    font-weight: 300;
+}
+
+.rumaterial-table thead tr th:first-child {
+    min-width: 150px;
+}
+
+.rumaterial-table-card > thead > tr > th,
+.rumaterial-table-card > tbody > tr > td {
+    padding: 0 20px 0 0 !important;
+}
+
+.rumaterial-table-card-content {
+    padding: 0 !important;
+}
+
+.rumaterial-table-cell {
+    padding: 4px 56px 4px 4px !important;
+}
+
+.rumaterial-table-cell-secondary {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.rumaterial-table-head-cell {
+    text-transform: uppercase !important;
+}
+
+.rumaterial-table-row-cell {
+    border-bottom: none !important;
+    border-top: 1px solid rgba(224, 224, 224, 1);
+}
+
+.rumaterial-table-row-cell > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.rumaterial-table-info-row {
+    height: 26px !important;
+}
+
+.rumaterial-table-status {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.rumaterial-list-context {
+    padding: 0 24px;
+}
+
+.rumaterial-volume-mountpoint,
+.rumaterial-list-item-text-primary,
+.rumaterial-list-item-text-secondary,
+.rumaterial-table-cell-primary,
+.rumaterial-table-cell-secondary {
+    word-break: break-all;
+}
+
+.rumaterial-list-item-edit > div {
+    padding-right: 10px;
+    width: 100%;
+}
+
+.rumaterial-list-item-edit-small > div {
+    flex-direction: column;
+    max-width: 350px;
+    padding: 20px 0 20px 0;
+}
+
+/** Stepper **/
+
+.rumaterial-stepper {
+    background-color: #fafafa !important;
+    padding: 24px 0 24px !important;
+    max-width: 400px;
+}
+
+/** Form content **/
+
+.rumaterial-form {
+    min-height: calc(100vh - 64px);
+}
+
+.rumaterial-form-context {
+    padding: 24px 24px;
+}
+
+.rumaterial-form-wrapper {
+    padding: 16px;
+}
+
+.rumaterial-form-context input[type="number"],
+.rumaterial-form-context input[type="checkbox"],
+.rumaterial-form-context input[type="radio"],
+.rumaterial-form-context input[type="password"],
+.rumaterial-form-context input[type="select"],
+.rumaterial-form-context input[type="text"] {
+    background-color: #fff !important;
+}
+
+.rumaterial-form-subtitle {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.rumaterial-form-title {
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.rumaterial-form-title-divider {
+    margin-top: 5px !important;
+    margin-bottom: 20px !important;
+}
+
+.rumaterial-grid-title-divider {
+    margin-top: 15px !important;
+}
+
+.rumaterial-form-paper {
+    padding: 16px;
+}
+
+.rumaterial-form-main-grid {
+    padding-top: 24px;
+}
+
+.rumaterial-form-input {
+    background-color: #fff;
+}
+
+.rumaterial-form-select-icon > div > div {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.rumaterial-form-toolbar {
+    padding: 0 24px 24px;
+}
+
+.rumaterial-form-toolbar-context {
+    padding: 0 24px;
+}
+
+.rumaterial-form-buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rumaterial-form-buttons > * {
+    margin-right: 5px !important;
+}
+
+.rumaterial-form-section {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.rumaterial-transparent-card {
+    box-shadow: none !important;
+    background-color: #fafafa !important;
+}
+
+.rumaterial-form-card {
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.rumaterial-form-card-single {
+    max-width: 500px;
+}
+
+.rumaterial-form-card-icon {
+    top: 1px;
+    position: relative;
+    margin-right: 3px;
+    font-size: 16px !important;
+}
+
+.rumaterial-form-card-icon-item {
+    display: flex;
+}
+
+.rumaterial-form-card-icon-item-id {
+    word-break: break-all;
+}
+
+.rumaterial-form-card-icon-text {
+    font-size: 12px !important;
+}
+
+.rumaterial-form-card-labels {
+    display: inline-flex;
+}
+
+.rumaterial-form-card-labels > span {
+    margin-right: 5px;
+}
+
+/* Logs */
+
+.rumaterial-log {
+    font-family: monospace;
+    font-size: 13px;
+    background: black;
+    color: #CCC;
+    padding: 1em;
+    min-height: calc(100vh - 64px);
+}
+
+.rumaterial-log-fresh {
+    animation: cooldown 5s;
+}
+
+@media (min-width: 1280px) {
+    .rumaterial-log {
+        padding-left: 2em;
+    }
+}
+
+@-webkit-keyframes cooldown {
+    from {
+        color: white;
+        text-shadow: 0 0 1px white;
+    }
+    to {
+        color: #CCC;
+    }
+}
+
+@keyframes cooldown {
+    from {
+        color: white;
+        text-shadow: 0 0 1px white;
+    }
+    to {
+        color: #CCC;
+    }
+}
+
+.rumaterial-log-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.log-info {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.log-body {
+    word-break: break-all;
+}
+
+/* Labels & Status ico  */
+
+.rumaterial-label {
+    color: #fff;
+    padding: 5px 12px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 12px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.6);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.6);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.6);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+.rumaterial-label-pulsing {
+    background-color: #ffa000 !important;
+    animation: pulse 2s infinite;
+}
+
+.rumaterial-label-green {
+    background-color: #43a047 !important;
+}
+
+.rumaterial-label-red {
+    background-color: #d32f2f !important;
+}
+
+.rumaterial-label-yellow {
+    background-color: #ffa000 !important;
+}
+
+.rumaterial-label-blue {
+    background-color: #22459f !important;
+}
+
+.rumaterial-label-primary {
+    background-color: #65519f !important;
+}
+
+.rumaterial-label-grey,
+.rumaterial-label-info {
+    background-color: #6c757d !important;
+}
+
+.rumaterial-icon-ok > svg {
+    color: #43a047;
+}
+
+.rumaterial-icon-error > svg {
+    color: #d32f2f;
+}
+
+.rumaterial-icon-warning > svg {
+    color: #ffa000;
+}
+
+.rumaterial-icon-accept > svg {
+    color: #22459f
+}
+
+.rumaterial-icon-info > svg {
+    color: #6c757d;
+}
+
+/* Codemirror custom */
+
+.rumaterial-codemirror {
+    border-radius: 4px !important;
+    border: 1px solid rgba(0, 0, 0, 0.23) !important;
+}
+
+.rumaterial-codemirror-info {
+    border-radius: 0 !important;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.rumaterial-codemirror > div {
+    padding: 0 !important;
+}
+
+.rumaterial-codemirror-ro > div:before,
+.rumaterial-codemirror > div:before {
+    border-bottom: none !important;
+}
+
+/* SERVICE */
+
+.rumaterial-service-list-port {
+    font-size: 10px;
+    color: rgb(158, 158, 158);
+}
+
+.rumaterial-service-slider-title {
+    padding-bottom: 10px;
+}
+
+.rumaterial-service-replicas-graph {
+    width: 150px;
+    height: 150px;
+}
+
+.rumaterial-service-tabs {
+    background-color: #f5f5f5;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.rumaterial-commmand {
+    display: flex;
+    align-items: flex-start;
+}
+
+.rumaterial-task-error {
+    display: flex;
+    color: #d32f2f;
+    font-size: 0.9em;
+    align-items: center;
+}
+
+.rumaterial-task-error-icon {
+    margin-right: 0.3em;
+}
+
+.rumaterial-volume-mount,
+.rumaterial-task-memory-usage {
+    display: flex;
+    flex-direction: column;
+}
+
+.rumaterial-command-text {
+    font-size: 0.9em;
+    word-break: break-all;
+}
+
+.rumaterial-command-text > pre {
+    margin: 5px 5px 5px 0;
+}
+
+.rumaterial-popover {
+    padding: 1em 2em;
+}
+
+/* REPOSITORY */
+
+.rumaterial-repo-registry-item {
+    padding: 0 !important;
+}
+
+.rumaterial-repo-manual {
+    margin-top: 20px;
+}
+
+.Service-repo-separator {
+    font-weight: 500;
+}
+
+.rumaterial-repo-card,
+.rumaterial-repo-state,
+.rumaterial-repo-progress {
+    margin-top: 20px !important;
+}
+
+.rumaterial-repo-registry-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rumaterial-repo-registry-url {
+    font-size: 12px;
+    color: rgb(158, 158, 158);
+    padding-left: 10px;
+}
+
+/* NODE */
+
+.rumaterial-node-stat {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.rumaterial-node-stat-graph {
+    min-width: 96px;
+    min-height: 96px;
+    width: 120px;
+    height: 120px;
+}
+
+.rumaterial-node-href {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* Custom Forms */
+
+.rumaterial-registry-form,
+.rumaterial-user-form {
+    max-width: 350px;
+}
+
+.rumaterial-access-form {
+    max-width: 600px;
+}
+
+.rumaterial-card-header-responsive-title {
+    word-break: break-all;
+}
+
+/* Recharts customizations */
+
+.recharts-tooltip-wrapper {
+    z-index: 1;
+}
+
+/**** MEDIA ****/
+
+/* LARGE DEVICES [LG] */
+
+@media (min-width: 1280px) {
+    .rumaterial-context {
+        margin-left: 200px;
+    }
+
+    .rumaterial-appbar {
+        width: calc(100% - 200px) !important;
+    }
+
+    .rumaterial-appbar-menu-btn {
+        display: none !important;
+    }
+
+    .rumaterial-action-menu-desktop {
+        display: flex;
+    }
+
+    .rumaterial-action-menu-mobile {
+        display: none;
+    }
+}
+
+/* MEDIUM DEVICES [MD] */
+@media (min-width: 1080px) {
+    .rumaterial-appbar-section-desktop {
+        display: flex;
+    }
+
+    .rumaterial-appbar-section-mobile {
+        display: none;
+    }
+}
+
+/* SMALL DEVICES [SM] */
+@media (min-width: 600px) {
+    .rumaterial-toolbar {
+        min-height: 64px;
+    }
+
+    .rumaterial-title {
+        min-height: 64px;
+    }
+
+    .rumaterial-drawer-item-selected {
+        padding-left: 19px !important;
+    }
+
+    .rumaterial-drawer-closed > div {
+        width: 72px;
+    }
+
+    .rumaterial-form-paper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .rumaterial-appbar-title,
+    .rumaterial-appbar-subtitle {
+        display: block !important;
+    }
+
+    .rumaterial-appbar-search {
+        width: auto;
+        margin-left: 24px;
+    }
+
+    .rumaterial-appbar-search-input {
+        width: 100%;
+    }
+
+    .rumaterial-appbar-search-input:focus {
+        width: 100%;
+    }
+
+    .rumaterial-section-desktop {
+        display: flex;
+    }
+
+    .rumaterial-section-mobile {
+        display: none;
+    }
+
+    .rumaterial-form-wrapper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+/* EXTRA SMALL DEVICES [XS] */
+@media all and (max-width: 600px) {
+    .rumaterial-login-layout {
+        width: auto;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .rumaterial-context {
+        width: 100%;
+    }
+
+    .rumaterial-form-toolbar {
+        padding: 0 10px 10px;
+    }
+
+    .rumaterial-form-toolbar-context {
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .rumaterial-form-panel-search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .rumaterial-form-context {
+        padding: 20px 10px;
+    }
+
+    .rumaterial-node-stat {
+        padding: 0;
+    }
+
+    .rumaterial-repo-registry-text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .rumaterial-repo-registry-url {
+        padding-left: 0;
+    }
+}
